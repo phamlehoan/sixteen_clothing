@@ -211,6 +211,11 @@ header .navbar {
 
 .navbar .navbar-nav .nav-item {
 	margin: 0px 15px;
+
+	.img-avt{
+		width: 50px;
+		height: 50px;
+	}
 }
 
 .navbar .navbar-nav a.nav-link {
@@ -736,3 +741,24 @@ footer .inner-content p a {
   }
 }
 
+.flash {
+  background-color: transparent;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+
+  .alert {
+    z-index: 3;
+  }
+}
+
+.img-avt{
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(160, 160, 160, 0.502);
+  padding: 3px;
+	border: 1px solid orangered;
+}

@@ -8,5 +8,57 @@ vi:
       default: "%m/%d/%Y %H:%M"
       short: "%H:%M"
       notime: "%m/%d/%Y"
+  headers:
+    login: "Đăng nhập"
+    register: "Đăng ký"
+    update_passwd: "Đổi mật khẩu"
   index:
     title: "MindX"
+  login:
+    username: "Email"
+    passwd: "Mật khẩu"
+    old_passwd: "Mật khẩu cũ"
+    new_passwd: "Nhập lại mật khẩu"
+    remember_me: "Ghi nhớ"
+    btn_send_email: "Gửi email"
+    forgot_passwd: "Quên mật khẩu"
+    or_with: "Hoặc đăng nhập với"
+    invalid_user: "Sai email hoặc mật khẩu"
+    check_activation_link: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email."
+  register:
+    passwd_conf: "Xác nhận mật khẩu"
+    full_name: "Họ và tên"
+    phone: "Số điện thoại"
+    birthday: "Sinh nhật"
+    address: "Địa chỉ"
+    btn_next: "Tiếp theo"
+    btn_prev: "Quay lại"
+  update:
+    update_profile: "Chỉnh sửa hồ sơ"
+    update_passwd: "Đổi mật khẩu"
+    old_passwd: "Mật khẩu cũ"
+    close: "Thoát"
+  email:
+    btn:
+      active: "Kích hoạt"
+      reset_passwd: "Lấy lại mật khẩu"
+    subject:
+      active_account: "MindX | Kích hoạt tài khoản"
+      password_reset: "MindX | Đặt lại mật khẩu"
+    hi: "Chào"
+    message:
+      active_account: "Chào mừng bạn đến với MindX App! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
+      reset_passwd: "Chúng tôi nhận được yêu cầu thay đổi mật khẩu. Nếu bạn không thực hiện hành động này, vui lòng bỏ qua email này và tiếp tục sử dụng. Để đổi mật khẩu, vui lòng click vào link bên dưới:"
+    signature: "Trân trọng,<br>Hoan Pham Le"
+  account:
+    activated: "Tài khoản đã được kích hoạt!"
+    invalid_active_link: "Link kích hoạt không chính xác"
+    invalid_reset_passwd_link: "Link đổi mật khẩu không chính xác"
+    account_nil: "Tài khoản không tồn tại"
+    create_fail: "Đăng ký thất bại. Có lỗi xảy ra, vui lòng kiểm tra lại thông tin "
+    check_email: "Vui lòng kiểm tra email và xác nhận."
+    profile_updated: "Thông tin cá nhân của bạn đã được thay đổi thành công"
+    update_fail: "Cập nhật thất bại, vui lòng kiểm tra lại thông tin "
+    passwd_updated: "Mật khẩu của bạn đã được thay đổi thành công"
+    change_pwd_fail: "Đổi mật khẩu thất bại, vui lòng kiểm tra lại thông tin "
+  
